@@ -1,0 +1,35 @@
+import React from "react";
+import styled from "styled-components";
+
+import Link from "next/link";
+import Head from "next/head";
+
+import withAnalytics from "../src/hocs/withAnalytics";
+
+const LinkWrapper = styled.div`
+  display: block;
+
+  a {
+    color: #fff;
+    font-size: 20px;
+  }
+`;
+
+const Home = () => (
+  <div>
+    <Head>
+      <title>Home</title>
+    </Head>
+
+    <h1>Hello World</h1>
+    <img src="/static/profile.jpg" alt="Profile" width="200" />
+
+    <LinkWrapper>
+      <Link href="/users">
+        <a>Usuários</a>
+      </Link>
+    </LinkWrapper>
+  </div>
+);
+
+export default withAnalytics()(Home);
