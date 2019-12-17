@@ -11,7 +11,7 @@ const LinkWrapper = styled.div`
 
   a {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
   }
 `;
 

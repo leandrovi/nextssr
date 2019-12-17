@@ -1957,7 +1957,7 @@ const LinkWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div
 
   a {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
   }
 `;
 

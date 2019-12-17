@@ -14067,7 +14067,7 @@ var _jsxFileName = "/Users/avec/source/rocketseat/bonus/nextssr/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: block;\n\n  a {\n    color: #fff;\n    font-size: 20px;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: block;\n\n  a {\n    color: #fff;\n    font-size: 16px;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
