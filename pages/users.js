@@ -15,7 +15,12 @@ const User = ({ users }) => (
     <h1>Usuários:</h1>
     <ul>
       {users.map(user => (
-        <li key={user.id}>{user.login}</li>
+        <li key={user.id}>
+          {user.login}
+          <Link href={`/users/${user.login}`}>
+            <a>Acessar perfil</a>
+          </Link>
+        </li>
       ))}
     </ul>
 
