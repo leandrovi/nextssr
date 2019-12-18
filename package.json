@@ -18,6 +18,7 @@
     "build": "next build"
   },
   "devDependencies": {
+    "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-styled-components": "^1.10.6"
   }
 }
