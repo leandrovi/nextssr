@@ -16,10 +16,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head>
-          <style>{`body { background: #069 }`}</style>
-          {this.props.styleTags}
-        </Head>
+        <Head>{this.props.styleTags}</Head>
         <body>
           <Main />
           <NextScript />

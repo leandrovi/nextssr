@@ -10,7 +10,7 @@ const LinkWrapper = styled.div`
   display: block;
 
   a {
-    color: #fff;
+    color: #333;
     font-size: 16px;
   }
 `;
@@ -22,7 +22,7 @@ const Home = () => (
     </Head>
 
     <h1>Hello World</h1>
-    <img src="/static/profile.jpg" alt="Profile" width="200" />
+    <img src="/profile.jpg" alt="Profile" width="200" />
 
     <LinkWrapper>
       <Link href="/users">
